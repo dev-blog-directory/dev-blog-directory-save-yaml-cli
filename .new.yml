@@ -1,0 +1,49 @@
+# blog name
+name:
+# blog url (required)
+# url: https://myblog.com/
+url: https://myblog.com/
+# description of this blog.
+desc:
+# blog feed url. rss or atom.
+rss:
+# author of this blog
+author:
+# the languages used by this blog. default is en.
+# e.g.
+# langs: fr
+# langs: [zh, en]
+langs:
+# github url of the author
+github:
+# add categories for this blog.
+# only alphabet, number, - are allowed. - can't appear at the beginning and the end.
+# e.g.
+# categories:
+#   - Personal
+# Available values:
+#   - Personal
+#   - Team
+#   - Product
+#   - Platform
+#   - Other
+#
+categories:
+  - Personal
+# add tags for this blog.
+# only alphabet, number, - are allowed. - can't appear at the beginning and the end.
+# e.g.
+# tags:
+#   - javascript
+#   - python
+#   - architecture
+#   - design-pattern
+#   - tutorial
+#
+# these styles are supported also.
+# tags: [foo, bar]
+# tags: foo, bar
+# tags: foo bar
+tags:
+  - JavaScript
+---
