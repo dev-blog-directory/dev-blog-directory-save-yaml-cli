@@ -26,7 +26,7 @@
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "dev-blog-directory-save-yaml-cli": "file:.",
-    "mocha": "^6.2.1",
+    "mocha": "^8.1.1",
     "nyc": "^15.1.0",
     "unlink-self": "latest",
     "xo": "^0.25.3"
