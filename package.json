@@ -1,6 +1,6 @@
 {
   "name": "dev-blog-directory-save-yaml-cli",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "A CLI for saves the YAML format blog list to documents/*.yml.",
   "main": "index.js",
   "bin": {
