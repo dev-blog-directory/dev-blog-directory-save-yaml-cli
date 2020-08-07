@@ -4,17 +4,18 @@ const fs = require('fs-extra');
 const chai = require('chai');
 const chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
-const {expect} = chai;
+const { expect } = chai;
 const main = require('dev-blog-directory-save-yaml-cli');
-const {YAMLException} = require('node-read-yaml');
+const { YAMLException } = require('node-read-yaml');
 
 describe('dev-blog-directory-save-yaml-cli', () => {
   before(() => {
-    return fs.remove('./documents')
+    return fs
+      .remove('./documents')
       .then(() => {
         console.log('remove ./documents success!');
       })
-      .catch(error => {
+      .catch((error) => {
         console.error(error);
       });
   });
@@ -40,6 +41,6 @@ describe('dev-blog-directory-save-yaml-cli', () => {
   });
 
   it('with merge option', () => {
-    return expect(main('new.yml', false, {merge: true})).to.be.fulfilled;
+    return expect(main('new.yml', false, { merge: true })).to.be.fulfilled;
   });
 });
